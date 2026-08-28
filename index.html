@@ -534,6 +534,103 @@
     </div>
   </section>
 
+  <section class="billing-flow">
+    <div class="billing-flow-inner">
+      <div class="billing-flow-eyebrow">HOW IT WORKS</div>
+      <h3 class="billing-flow-heading">Try Pro free for a month — no surprises</h3>
+
+      <div class="billing-flow-steps">
+        <div class="billing-flow-step">
+          <div class="billing-flow-num">1</div>
+          <h4>Sign up free</h4>
+          <p>Start scanning slips and tracking spend immediately. No card required.</p>
+        </div>
+        <div class="billing-flow-step">
+          <div class="billing-flow-num">2</div>
+          <h4>Get 1 month of Pro, on us</h4>
+          <p>Every new account includes a full month of Pro features — Gmail import, household budgeting, full history — free.</p>
+        </div>
+        <div class="billing-flow-step">
+          <div class="billing-flow-num">3</div>
+          <h4>Trial ends, you choose</h4>
+          <p>We'll remind you before it ends. Continue on Pro (R59/month or R499/year), or drop to Free — your data stays put either way.</p>
+        </div>
+        <div class="billing-flow-step">
+          <div class="billing-flow-num">4</div>
+          <h4>Cancel anytime</h4>
+          <p>No lock-in. Cancel from Settings whenever you like — you won't be charged again after that.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .billing-flow {
+      padding: 56px 24px 72px;
+      background: #F5FBF7;
+    }
+    .billing-flow-inner {
+      max-width: 980px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .billing-flow-eyebrow {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #16A34A;
+      margin-bottom: 12px;
+    }
+    .billing-flow-heading {
+      font-size: 26px;
+      font-weight: 800;
+      color: #0B0F14;
+      margin: 0 0 40px;
+    }
+    .billing-flow-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      text-align: left;
+    }
+    .billing-flow-step {
+      background: #FFFFFF;
+      border: 1px solid #E3EFE8;
+      border-radius: 16px;
+      padding: 24px 20px;
+      position: relative;
+    }
+    .billing-flow-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #22C55E;
+      color: white;
+      font-weight: 800;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+    }
+    .billing-flow-step h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0B0F14;
+      margin: 0 0 8px;
+    }
+    .billing-flow-step p {
+      font-size: 13px;
+      color: #5B6B66;
+      line-height: 1.5;
+      margin: 0;
+    }
+    @media (max-width: 700px) {
+      .billing-flow-steps { grid-template-columns: 1fr; }
+    }
+  </style>
+
   <!-- COMING SOON SECTION -->
   <section class="coming-soon" id="coming-soon">
     <style>
