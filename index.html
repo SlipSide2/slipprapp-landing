@@ -674,9 +674,14 @@
       }
       .coming-soon-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-template-columns: 1fr;
         gap: 16px;
         text-align: left;
+      }
+      @media (min-width: 640px) {
+        .coming-soon-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
       }
       .roadmap-card {
         background: #EAF7EF;
@@ -746,12 +751,6 @@
           <span class="roadmap-icon">🔔</span>
           <h3>Price alerts</h3>
           <p>Get notified when something you regularly buy drops in price at any of your stores.</p>
-          <span class="roadmap-badge later">Coming soon</span>
-        </div>
-        <div class="roadmap-card">
-          <span class="roadmap-icon">👨‍👩‍👧‍👦</span>
-          <h3>Multi-household budgeting</h3>
-          <p>Share budgets and spend history with family or roommates, all in one place.</p>
           <span class="roadmap-badge later">Coming soon</span>
         </div>
         <div class="roadmap-card">
